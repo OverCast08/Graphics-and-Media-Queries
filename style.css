@@ -1,0 +1,28 @@
+svg{
+  background-color:yellow;
+}
+
+circle{
+  fill:blue;
+  stroke:red;
+  stroke-width: 5px;
+}
+
+body{
+background: green url("https://bit.ly/3h2VSOf") 50% 50% no-repeat;
+
+height: 100vh;
+} 
+
+@media only screen and (max-width:600px) {
+  body{
+    background-color: olive;
+    color: navy;
+  }
+
+h1{
+  border:solid yellow 5px;
+}
+
+
+}
